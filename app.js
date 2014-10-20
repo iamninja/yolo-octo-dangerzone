@@ -23,6 +23,7 @@ app.set('port', process.env.PORT || 3000);
 
 var server = app.listen(app.get('port'), function() {
 	// log a message to console!
+	console.log('work!!')
 });
 
 module.exports = app;

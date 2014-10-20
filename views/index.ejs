@@ -3,6 +3,7 @@
 <head>
 <title>anime-track</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/login.css">
   <link rel="stylesheet" href="css/app.css">
   <script src="lib/angular.min.js"></script>
   <script src="lib/angular-route.min.js"></script>
@@ -15,8 +16,10 @@
 <body>
 
 <div class="container">
-   <div ng-include src="'partials/head.html'"></div>
-   <h3>Hello node-webkit express angular App!!</h3>
+  <div ng-include src="'partials/head.html'"></div>
+    <ng-view></ng-view>
+ </div>
+</div>
 </div>
 </body>
 </html>
